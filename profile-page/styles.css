@@ -1,0 +1,28 @@
+/* Layout */
+.container {
+  padding: 1.5rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Login */
+.section-header {
+  padding-bottom: 2rem;
+}
+
+.nes-brand-logo {
+  padding-bottom: 2rem;
+}
+
+.nes-form {
+
+}
+
+.nes-field {
+  padding: 1rem 0;
+}
+
+.disclaimer {
+  font-size: 10px;
+  padding-top: 1rem;
+}

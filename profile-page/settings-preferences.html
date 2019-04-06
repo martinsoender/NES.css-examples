@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Settings - Preferences</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <section>
+    <div class="container">
+
+      <div class="section-header">
+        <h1>Settings</h1>
+        <p>Here you can edit your profile, change your preferences, connect social accounts, export your data, and manage billing details.</p>
+      </div>
+
+      <div style="padding-bottom: 2rem;">
+        <a href="./settings-profile.html">Profile</a>
+        <a href="./settings-preferences.html" style="text-decoration: underline;">Preferences</a>
+        <a href="./settings-social.html">Social</a>
+        <a href="#">Billing</a>
+      </div>
+
+      <form class="nes-form">
+
+        <div class="nes-form-group" style="padding-bottom: 2rem;">
+          <h3 class="nes-form-title">Account settings</h3>
+          <div class="nes-field">
+            <label>
+              <input type="checkbox" class="nes-checkbox" checked />
+              <span>Private messages</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="nes-form-group" style="padding-bottom: 2rem;">
+          <h3 class="nes-form-title">E-mail me when</h3>
+          <div class="nes-field">
+            <label>
+              <input type="checkbox" class="nes-checkbox" checked />
+              <span>Someone comments on one of my ...</span>
+            </label>
+          </div>
+          <div class="nes-field">
+            <label>
+              <input type="checkbox" class="nes-checkbox" checked />
+              <span>Someone mentions me</span>
+            </label>
+          </div>
+          <div class="nes-field">
+            <label>
+              <input type="checkbox" class="nes-checkbox" checked />
+              <span>Someone follows me</span>
+            </label>
+          </div>
+          <div class="nes-field">
+            <label>
+              <input type="checkbox" class="nes-checkbox" checked />
+              <span>I received private message</span>
+            </label>
+          </div>
+        </div>
+
+
+        <button type="button" class="nes-btn is-success" style="width: 100%;">Save changes</button>
+
+      </form>
+
+    </div>
+  </section>
+
+</body>
+</html>

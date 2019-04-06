@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  border-bottom: 4px solid #000;
+  background-color: white;
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Dark mode */
+.header-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.header-container {
+  padding: 1.5rem 2rem;
+  position: relative;
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a {
+  border-bottom: 4px solid transparent;
+}
+.header a:hover {
+  border-bottom: 4px solid #000;
+}
+
+.header-dark a:hover {
+  border-color: #fff;
+}
+
+.header-actions {
+  justify-content: flex-end;
+}

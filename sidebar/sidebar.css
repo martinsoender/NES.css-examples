@@ -1,0 +1,39 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background: #fff;
+  border-right: 4px solid #000;
+}
+.sidebar-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.sidebar-container {
+  padding: 1.5rem 2rem;
+  height: 100%;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: space-between;
+}
+
+.sidebar-brand {
+  padding-bottom: 2rem;
+}
+
+.sidebar-nav > a {
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.sidebar-actions {}
+
+.sidebar-actions > button {
+  width: -webkit-fill-available;
+}
+.sidebar-actions > button:first-of-type {
+  margin-bottom: 1rem;
+}

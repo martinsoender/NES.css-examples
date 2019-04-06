@@ -1,0 +1,44 @@
+/* Layout */
+.container {
+  padding: 1.5rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-header {
+  padding-bottom: 2rem;
+}
+
+/* Alerts */
+.nes-alert {
+  position: relative;
+  color: #000;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 0.5rem 2rem;
+  border: 4px solid #000;
+  margin-bottom: 2rem;
+}
+
+.nes-alert-close {
+  position: absolute;
+  right: 2rem;
+}
+
+
+.is-primary {
+  color: #fff;
+  background-color: #209cee;
+}
+.is-success {
+  color: #fff;
+  background-color: #92cc41;
+}
+.is-warning {
+  background-color: #f7d51d;
+}
+.is-error {
+  color: #fff;
+  background-color: #e76e55;
+}

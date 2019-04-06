@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Settings - Profile</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <section>
+    <div class="container">
+
+      <div class="section-header">
+        <h1>Settings</h2>
+        <p>Here you can edit your profile, change your preferences, connect social accounts, export your data, and manage billing details.</p>
+      </div>
+
+      <div style="padding-bottom: 2rem;">
+        <a href="./settings-profile.html" style="text-decoration: underline;">Profile</a>
+        <a href="./settings-preferences.html">Preferences</a>
+        <a href="./settings-social.html">Social</a>
+        <a href="#">Billing</a>
+      </div>
+
+      <form class="nes-form">
+
+        <div class="nes-field" style="display: flex; align-items: center; padding-bottom: 2rem;">
+          <img class="nes-avatar is-rounded is-large" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15" style="image-rendering: pixelated; width: 105px; height: 105; border-radius: 50%;">
+
+          <div style="padding-left: 2rem;">
+            <button type="button" class="nes-btn">Upload image</button>
+            <p style="padding-top: 1rem; margin: 0;">At least 256 x 256px PNG or JPG file.</p>
+          </div>
+        </div>
+
+
+        <div class="nes-field" style="width: calc(50% - 25px); margin-right: 20px; display: inline-block;">
+          <label for="name_field">First name</label>
+          <input type="text" id="name_field" class="nes-input" placeholder="John">
+        </div>
+
+        <div class="nes-field" style="width: calc(50% - 25px); display: inline-block; float: right;">
+          <label for="name_field">Last name</label>
+          <input type="text" id="name_field" class="nes-input" placeholder="Doe">
+        </div>
+
+        <div class="nes-field" style="width: calc(50% - 25px); margin-right: 20px; display: inline-block;">
+          <label for="name_field">Display name</label>
+          <input type="text" id="name_field" class="nes-input" placeholder="John Doe">
+        </div>
+
+        <div class="nes-field" style="width: calc(50% - 25px); display: inline-block; float: right;">
+          <label for="name_field">Username</label>
+          <input type="text" id="name_field" class="nes-input" placeholder="" value="johndoe">
+        </div>
+
+        <div class="nes-field">
+          <label for="name_field">Your e-mail</label>
+          <input type="text" id="name_field" class="nes-input" placeholder="your@email.com" value="johndoe@email.com">
+        </div>
+
+        <div class="nes-field">
+          <label for="textarea_field">Short bio</label>
+          <textarea id="textarea_field" class="nes-textarea" placeholder="Write text here..."></textarea>
+        </div>
+
+        <div class="nes-field">
+          <label for="default_select">Preferred language</label>
+          <div class="nes-select">
+            <select required id="default_select">
+              <option value="" disabled selected hidden>Select...</option>
+              <option value="0">English</option>
+              <option value="1">Chinese</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="button" class="nes-btn is-success" style="width: 100%;">Save changes</button>
+
+      </form>
+
+    </div>
+  </section>
+
+</body>
+</html>
